@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/seamless-scroll-polyfill@latest/lib/bundle.min.js"></script> -->
+    <script src="js/headerScroll.js" defer></script>
+    <script src="js/burger.js" defer></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item ">
+                        <a class="header__link" href="#home">Home</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#about-me">About me</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#skils">Skills</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#contacts">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <main class="main">
+        <section class="home" id="home">
+            <div class="container">
+
+                <div class="home__text">
+                    <h1 class="home__name">Denis<br>Novik</h1>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <p class="home__description">UX | UI designer<br>24 years old, Minsk</p>
+                    <div class="home_language">
+                        <button class="button home__language--ru">RU</button>
+                        <span class="me_language--stick">|</span>
+                        <button class="button home__language--eng">ENG</button>
+                    </div>
+                </div>
+                <div class="home__photo">
+                    <picture>
+                        <source srcset="img/me-mobile.jpg" media="(max-width: 767px)">
+                        <source srcset="img/me.jpg">
+                        <img srcset="img/me.jpg" alt="">
+                    </picture>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="about-me" id="about-me">
+            <div class="container">
+                <h2 class="about-me__title">About me</h2>
+                <div class="about-me__text">
+                    <p class="about-me__description">Hi, I'm Denis – UX/UI designer from Minsk.<br>I'm interested in
+                        design
+                        and everything connected with it.
+                    </p>
+                    <p class="about-me__description">I'm studying at courses "Web and mobile design<br>interfaces" in
+                        IT-Academy.</p>
+                    <p class="about-me__description">Ready to implement excellent projects<br>with wonderful people.</p>
+                </div>
+            </div>
+        </section>
+        <section class="skils" id="skils">
+            <div class="container">
+                <h3 class="skils__title">
+                    Skils
+                </h3>
+                <p class="skils__text">
+                    I work in such programs as
+                </p>
+                <ul class="skils__list">
+                    <li class="skils__item">
+                        <div class="skils__logo"><img src="img/PS.jpg" alt=""></div>
+                        <p class="skils__name">Adobe Photoshop</p>
+                        <div class="skils__level">
+                            <div class="skils__star"><img src="img/star-black.svg" alt="">
+                            </div>
+                            <div class="skils__star"><img src="img/star-black.svg" alt="">
+                            </div>
+                            <div class="skils__star"><img src="img/star-black.svg" alt="">
+                            </div>
+                            <div class="skils__star"><img src="img/star-black.svg" alt="">
+                            </div>
+                            <div class="skils__star"><img src="img/Star-white.svg" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="skils__item">
+                        <div class="skils__logo"><img src="img/AI.jpg" alt=""></div>
+                        <p class="skils__name">Adobe
+                            Illustrator</p>
+                        <div class="skils__level">
+                            <div class="skils__star"><img src="img/star-black.svg" alt="">
+                            </div>
+                            <div class="skils__star"><img src="img/star-black.svg" alt="">
+                            </div>
+                            <div class="skils__star"><img src="img/star-black.svg" alt="">
+                            </div>
+                            <div class="skils__star"><img src="img/Star-white.svg" alt="">
+                            </div>
+                            <div class="skils__star"><img src="img/Star-white.svg" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="skils__item">
+                        <div class="skils__logo"><img src="img/AE.jpg" alt=""></div>
+                        <p class="skils__name">Adobe
+                            After Effects</p>
+                        <div class="skils__level">
+                            <div class="skils__star"><img src="img/star-black.svg" alt="">
+                            </div>
+                            <div class="skils__star"><img src="img/star-black.svg" alt="">
+                            </div>
+                            <div class="skils__star"><img src="img/star-black.svg" alt="">
+                            </div>
+                            <div class="skils__star"><img src="img/star-black.svg" alt="">
+                            </div>
+                            <div class="skils__star"><img src="img/Star-white.svg" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="skils__item">
+                        <div class="skils__logo"><img src="img/Figma.jpg" alt=""></div>
+                        <p class="skils__name">Figma</p>
+                        <div class="skils__level">
+                            <div class="skils__star"><img src="img/star-black.svg" alt="">
+                            </div>
+                            <div class="skils__star"><img src="img/star-black.svg" alt="">
+                            </div>
+                            <div class="skils__star"><img src="img/star-black.svg" alt="">
+                            </div>
+                            <div class="skils__star"><img src="img/star-black.svg" alt="">
+                            </div>
+                            <div class="skils__star"><img src="img/Star-white.svg" alt="">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <h3 class="portfolio__title">Portfolio</h3>
+                <ul class="portfolio__list">
+                    <li class="portfolio__item">
+                        <div class="portfolio__example">
+                            <img src="img/portfolio1.jpg" alt="">
+                        </div>
+                        <p class="portfolio__description">Online fashion store - Homepage</p>
+                    </li>
+                    <li class="portfolio__item">
+                        <div class="portfolio__example">
+                            <img src="img/portfolio2.jpg" alt="">
+                        </div>
+                        <p class="portfolio__description">Reebok Store - Concept</p>
+                    </li>
+                    <li class="portfolio__item">
+                        <div class="portfolio__example">
+                            <img src="img/portfolio3.jpg" alt="">
+                        </div>
+                        <p class="portfolio__description">Braun Landing Page - Concept</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <h3 class="contacts__title">Contacts</h3>
+                <p class="contacts__description">Want to know more or just chat?
+                    You are welcome!</p>
+                <button class="contacts__button">Send message</button>
+                <div class="contacts__social-media">
+                    <div class="contacts__social-network"><img src="img/link.svg" alt=""></div>
+                    <div class="contacts__social-network"><img src="img/inst.svg" alt=""></div>
+                    <div class="contacts__social-network"><img src="img/beh.svg" alt=""></div>
+                    <div class="contacts__social-network"><img src="img/dr.svg" alt=""></div>
+                </div>
+                <p class="contacts__message">Like me on<br>LinkedIn, Instagram, Behance, Dribble</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+    </footer>
+
+</body>
+
+</html>
