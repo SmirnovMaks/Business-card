@@ -140,7 +140,6 @@ li {
     margin: 0 auto;
     max-width: 486px;
     height: 218px;
-    justify-content: space-between;
 }
 .about-me__description {
     display: block;
@@ -383,6 +382,10 @@ li {
     .home__description {
         grid-column: 1/2;
         grid-row: 2/3;
+    }
+    .about-me {
+        height: 400px;
+        padding: 50px 0;
     }
     .skils {
         padding-bottom: 0;
