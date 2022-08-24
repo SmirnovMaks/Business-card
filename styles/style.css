@@ -380,6 +380,10 @@ li {
         right: 0px;
         z-index: 5;
     }
+    .home__description {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
     .skils {
         padding-bottom: 0;
     }
